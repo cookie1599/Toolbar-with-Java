@@ -13,6 +13,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_launcher_search"
+        android:title="@string/action_search"
+        android:showAsaction="ifRoom"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
